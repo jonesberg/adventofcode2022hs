@@ -22,7 +22,8 @@ maintainer:         jonathan@raiks.ca
 extra-source-files: CHANGELOG.md
 
 common common-options
-  build-depends:       base ^>= 4.16.3.0, raw-strings-qq, split, containers
+  build-depends:       base ^>= 4.16.3.0, raw-strings-qq, split, containers, text, lens
+  extensions: OverloadedStrings, TemplateHaskell
 
   -- ghc-options:         -Wall
   --                      -Wcompat
